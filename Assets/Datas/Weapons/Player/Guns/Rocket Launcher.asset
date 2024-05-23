@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ea8aa06d113c8469ebccd8b4b56ad1, type: 3}
+  m_Name: Rocket Launcher
+  m_EditorClassIdentifier: 
+  m_damage: 500
+  m_fireRate: 0
+  m_knockback: 10
+  m_auto: 0
+  m_tags:
+  - Ranged
+  - Explosive
+  m_magSize: 1
+  m_maxAmmo: 15
+  m_range: 10
+  m_bulletSpeed: 15
+  m_spread: 0
+  m_reloadTime: 10
+  m_bullet: {fileID: 1644435432349746432, guid: 7940c9ac64fdcba439bb6e5e53790de5, type: 3}
+  m_shot: {fileID: 8300000, guid: ef455a2802b852a4fb1427d298a2908c, type: 3}
+  m_reload: {fileID: 8300000, guid: b84c36e3e28bdd7408ad2798fda15e4b, type: 3}
+  m_explosionSize: 4
+  m_explosionTime: 0.25

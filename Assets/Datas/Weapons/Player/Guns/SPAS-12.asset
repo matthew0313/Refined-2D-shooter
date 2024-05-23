@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e72f6783f9e3498bb007d0f7ea547, type: 3}
+  m_Name: SPAS-12
+  m_EditorClassIdentifier: 
+  m_damage: 4
+  m_fireRate: 0.7
+  m_knockback: 0
+  m_auto: 0
+  m_tags:
+  - Ranged
+  - Shotgun
+  m_magSize: 5
+  m_maxAmmo: 40
+  m_range: 5
+  m_bulletSpeed: 20
+  m_spread: 20
+  m_reloadTime: 4
+  m_bullet: {fileID: 3597405028081122293, guid: 7887fdf94992f4f469f3c6441289fc35, type: 3}
+  m_shot: {fileID: 8300000, guid: 3728bb46e89b95c40afcf67000cb42e1, type: 3}
+  m_reload: {fileID: 8300000, guid: 46756974892185a4faf134debc026da8, type: 3}
+  m_shotCount: 15
