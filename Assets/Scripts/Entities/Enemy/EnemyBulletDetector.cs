@@ -9,7 +9,8 @@ public class EnemyBulletDetector : MonoBehaviour
     {
         if (collision.CompareTag("Bullet"))
         {
-            if(collision.GetComponent<Bullet>().IsEnemyBullet() == false)
+            Bullet tmp = collision.GetComponent<Bullet>();
+            if(tmp != null && tmp.IsEnemyBullet() == false)
             {
                 onBulletDetection.Invoke();
             }
