@@ -5249,7 +5249,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 900a54dcd799ac547a45ea4d7f7956a8, type: 2}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 74e0f02e903c1ec4090385eb668878fa, type: 2}
   - {fileID: 11400000, guid: bd2cdbca4e1bea5448ed082a73e44eec, type: 2}
   canFire: 1
 --- !u!114 &1536993423
